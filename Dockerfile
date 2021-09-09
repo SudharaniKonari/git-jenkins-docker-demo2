@@ -1,5 +1,5 @@
 FROM java:8
 
-ADD target/JenkinsDockerGitDemo.jar app.jar
+ADD target/RevatureDockerDemo.jar app.jar
 
 ENTRYPOINT [ "java" , "-jar" , "app.jar" ]
